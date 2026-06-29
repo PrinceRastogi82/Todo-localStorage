@@ -1,16 +1,101 @@
-# React + Vite
+# 📝 Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple and responsive **Todo List Application** built with **React.js** and **Tailwind CSS**. It helps users manage their daily tasks efficiently by allowing them to add, complete, and delete todos. The application uses the browser's **Local Storage API** to persist data, ensuring tasks remain available even after refreshing or reopening the browser.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- ➕ Add new tasks
+- ✅ Mark tasks as completed
+- 🗑️ Delete tasks
+- 💾 Persistent storage using Local Storage
+- ⚡ Instant UI updates
+- 📱 Responsive design for desktop and mobile
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React.js
+- JavaScript (ES6+)
+- Tailwind CSS
+- Local Storage API
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+│   ├── TodoForm.jsx
+│   ├── TodoItem.jsx
+│   └── TodoList.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## ⚙️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/PrinceRastogi82/Todo-localStorage.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd Todo-localStorage
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+
+## 💡 How It Works
+
+- Users can add new tasks.
+- Todos are stored in React state.
+- Every change is automatically saved to Local Storage.
+- On page refresh, saved todos are loaded from Local Storage.
+- Users can mark tasks as completed or delete them.
+
+---
+
+## 🎯 Learning Outcomes
+
+This project helped me practice:
+
+- React Components
+- React Hooks (`useState`, `useEffect`)
+- State Management
+- Props
+- Event Handling
+- Local Storage API
+- Conditional Rendering
+- Tailwind CSS
+
+---
+
+## 👨‍💻 Author
+
+**Prince Rastogi**
+
+GitHub: https://github.com/PrinceRastogi82
+
+---
+
